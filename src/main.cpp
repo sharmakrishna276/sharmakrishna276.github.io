@@ -90,6 +90,7 @@ int run(const fs::path& root, const fs::path& out) {
     const Meta site = parse_kv(read_file(conf_path), conf_file, 1);
     const std::string& site_name = require(site, "name", conf_file);
     const std::string& site_desc = require(site, "description", conf_file);
+    const std::string short_name = get_or(site, "short_name", site_name);
     std::string site_url = require(site, "url", conf_file);
     while (site_url.ends_with('/')) site_url.pop_back();
 
@@ -104,8 +105,8 @@ int run(const fs::path& root, const fs::path& out) {
     auto layout = [&](const std::string& title, const std::string& description,
                       const std::string& rel_root, std::string content) {
         Vars vars = site_vars;
-        // The home page's title is just the site name; others get "Title | Name".
-        vars["title"] = html_escape(title == site_name ? title : title + " | " + site_name);
+        // Browser tab: the home page shows just the short name, others "Title | Short".
+        vars["title"] = html_escape(title == site_name ? short_name : title + " | " + short_name);
         vars["description"] = html_escape(description);
         vars["root"] = rel_root;
         vars["content"] = std::move(content);
