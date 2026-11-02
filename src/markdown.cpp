@@ -13,10 +13,6 @@ constexpr size_t npos = std::string_view::npos;
 
 using Lines = std::vector<std::string_view>;
 
-// ---------------------------------------------------------------------------
-// Inline elements
-// ---------------------------------------------------------------------------
-
 std::string render_inline(std::string_view s);
 
 // Closing `**` of a strong span. A run like `***` closes on its last two

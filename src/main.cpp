@@ -1,14 +1,3 @@
-// ssg: a tiny, dependency-free static site generator.
-//
-//   ssg <site-root> <out-dir>
-//
-// <site-root> contains:
-//   site.conf           key: value pairs (name, url, description, links...)
-//   templates/          base.html wraps every page, post.html wraps posts
-//   content/*.md        top-level pages -> <out>/<name>.html
-//   content/posts/*.md  blog posts      -> <out>/posts/<name>.html
-//   static/             copied as-is    -> <out>/
-
 #include <algorithm>
 #include <charconv>
 #include <chrono>
