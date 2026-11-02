@@ -1,4 +1,4 @@
-# portfolio
+# About this Project
 
 My personal site, built with a small dependency-free static site generator
 written in C++20. Markdown goes in, plain HTML comes out.
@@ -58,20 +58,3 @@ reference-style links.
 
 Errors are reported as `file:line: message` (for example an unclosed code
 fence, bad frontmatter, an impossible date, or an unknown template variable).
-
-## Deploying to GitHub Pages
-
-1. Create a repo named `<username>.github.io` and push this directory to `main`.
-2. In the repo, go to Settings → Pages → Source and choose **GitHub Actions**.
-3. `.github/workflows/deploy.yml` builds the generator, renders the site and
-   publishes it on every push.
-
-## TODO before publishing
-
-- [ ] `site.conf`: name, url, github, linkedin, email, source
-- [ ] `content/index.md`: bio, background, interests
-- [ ] `content/projects.md`: real projects with numbers (throughput, p99
-      latency, GFLOPS vs cuBLAS); concrete measurements are what matter
-- [ ] `static/resume.pdf`: drop in your resume
-- [ ] `content/posts/false-sharing.md`: rerun the benchmark on your machine
-      and edit it into your own words
