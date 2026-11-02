@@ -61,5 +61,11 @@ ul.posts time { margin-right: 1.5ch; }
 .back { margin-top: 2.5rem; }
 
 footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
-footer a { margin-right: 1ch; }
 footer p { margin: 0 0 0.3rem; }
+
+/* Footer icons: inherit the text colour, lift and tint on hover. */
+footer .social { display: flex; gap: 1.1rem; margin: 0.4rem 0 0.9rem; }
+footer .social a { color: var(--muted); display: inline-flex; transition: color 0.15s, transform 0.15s; }
+footer .social a:hover { color: var(--accent); transform: translateY(-2px); text-decoration: none; }
+footer .social svg { width: 18px; height: 18px; fill: currentColor; }
+footer .social svg.stroke { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }

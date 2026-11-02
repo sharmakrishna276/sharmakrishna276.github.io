@@ -53,4 +53,4 @@ systems that are efficient down to the last cycle.
 
 ## Elsewhere
 
-[projects](projects.html) · [reading list](reading.html) · [resume](resume.pdf) · [rss](rss.xml)
+[Projects](projects.html) · [Reading List](reading.html) · [Resume](resume.pdf) · [RSS](rss.xml)
