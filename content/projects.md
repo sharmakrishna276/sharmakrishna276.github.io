@@ -8,7 +8,7 @@ description: Systems and GPU projects, with benchmarks.
 Things I've built to understand how systems behave under the hood. Each
 links to source with a README covering the design and how it was measured.
 
-## Limit order book & matching engine
+## Limit Order Book & Matching Engine
 
 Price-time priority matching engine in C++20. TODO: orders/sec, p50/p99
 add/cancel latency, and what made the difference (e.g. intrusive lists,
@@ -16,7 +16,7 @@ preallocated pools, no allocation on the hot path).
 
 [source](https://github.com/sharmakrishna276) · [writeup](posts/TODO.html)
 
-## SPSC lock-free ring buffer
+## SPSC lock-free Ring Buffer
 
 Single-producer/single-consumer queue using acquire/release atomics, with
 head and tail on separate cache lines. TODO: throughput and latency against

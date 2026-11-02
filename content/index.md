@@ -9,7 +9,7 @@ instructions a processor executes, the bytes moving through memory, the
 threads competing for resources, and the nanoseconds that separate a good
 implementation from a great one.
 
-I'm Krishna, a Maths and Computing major from IIT Delhi, currently exploring
+I'm Krishna, a Maths & Computing major from IIT Delhi, currently exploring
 the intersection of algorithms, systems, and hardware.
 
 This portfolio is my engineering logbook — a place to document what I build,

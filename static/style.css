@@ -36,7 +36,9 @@ a:hover { text-decoration: underline; }
 
 header nav { color: var(--muted); margin-bottom: 2.5rem; }
 header nav a { margin-right: 0.8ch; }
-header nav a.home { color: var(--fg); font-weight: 700; }
+header nav a.home { color: var(--fg); font-weight: 700; display: inline-flex; align-items: center; gap: 0.6rem; vertical-align: middle; }
+header nav a.home:hover { text-decoration: none; }
+header nav .avatar { border-radius: 50%; border: 1px solid var(--rule); }
 
 h1, h2, h3, h4 { font-size: 1rem; line-height: 1.4; margin: 2.2rem 0 0.8rem; }
 h1 { font-size: 1.15rem; margin-top: 0; }

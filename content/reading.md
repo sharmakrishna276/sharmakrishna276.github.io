@@ -3,11 +3,11 @@ title: reading
 description: Books, papers and blogs on performance, concurrency, GPUs and markets.
 ---
 
-# Reading list
+# Reading List
 
 Things I've read or am working through, plus anything else I'd recommend.
 
-## Hardware & performance
+## Hardware & Performance
 
 - Ulrich Drepper, [What Every Programmer Should Know About Memory](https://www.akkadia.org/drepper/cpumemory.pdf)
 - Agner Fog, [Software optimization resources](https://www.agner.org/optimize/)
@@ -28,7 +28,7 @@ Things I've read or am working through, plus anything else I'd recommend.
 - NVIDIA, [CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/)
 - Simon Boehm, [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance](https://siboehm.com/articles/22/CUDA-MMM)
 
-## Markets & trading systems
+## Markets & Trading Systems
 
 - Larry Harris, *Trading and Exchanges: Market Microstructure for Practitioners*
 - Carl Cook, *When a Microsecond Is an Eternity: High Performance Trading Systems in C++* (CppCon 2017)
