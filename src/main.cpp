@@ -104,7 +104,8 @@ int run(const fs::path& root, const fs::path& out) {
     auto layout = [&](const std::string& title, const std::string& description,
                       const std::string& rel_root, std::string content) {
         Vars vars = site_vars;
-        vars["title"] = html_escape(title);
+        // The home page's title is just the site name; others get "Title | Name".
+        vars["title"] = html_escape(title == site_name ? title : title + " | " + site_name);
         vars["description"] = html_escape(description);
         vars["root"] = rel_root;
         vars["content"] = std::move(content);

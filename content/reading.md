@@ -1,5 +1,5 @@
 ---
-title: reading
+title: Reading List
 description: Books, papers and blogs on performance, concurrency, GPUs and markets.
 ---
 

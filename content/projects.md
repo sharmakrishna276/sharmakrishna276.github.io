@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 description: Systems and GPU projects, with benchmarks.
 ---
 
