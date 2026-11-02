@@ -1,0 +1,3 @@
+/Users/sumar_brander/Desktop/portfolio/build/CMakeFiles/ssg.dir
+/Users/sumar_brander/Desktop/portfolio/build/CMakeFiles/edit_cache.dir
+/Users/sumar_brander/Desktop/portfolio/build/CMakeFiles/rebuild_cache.dir

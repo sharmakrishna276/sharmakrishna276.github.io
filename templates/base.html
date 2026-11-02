@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}} :: {{site.name}}</title>
+<meta name="description" content="{{description}}">
+<link rel="icon" href="{{root}}favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="{{root}}style.css">
+<link rel="alternate" type="application/rss+xml" title="{{site.name}}" href="{{root}}rss.xml">
+</head>
+<body>
+<header>
+<nav>
+<a class="home" href="{{root}}index.html">{{site.name}}</a> ::
+<a href="{{root}}index.html">about</a>
+<a href="{{root}}projects.html">projects</a>
+<a href="{{root}}reading.html">reading</a>
+<a href="{{root}}resume.pdf">resume</a>
+</nav>
+</header>
+<main>
+{{content}}
+</main>
+<footer>
+<p>
+<a href="{{site.github}}">github</a>
+<a href="{{site.linkedin}}">linkedin</a>
+<a href="mailto:{{site.email}}">email</a>
+<a href="{{root}}rss.xml">rss</a>
+</p>
+<p>(* built with a <a href="{{site.source}}">tiny C++20 static site generator</a> *)</p>
+</footer>
+</body>
+</html>
