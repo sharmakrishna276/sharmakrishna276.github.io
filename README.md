@@ -46,7 +46,7 @@ Posts are listed newest first wherever a page contains a `{{posts}}` line.
 
 ### Supported Markdown
 
-- `#`–`######` headings (styled as `(* h1 *)`, `(** h2 **)`, `(*** h3 ***)`)
+- `#`–`######` headings
 - paragraphs, `---` rules, `>` blockquotes
 - `-` / `*` / `+` and `1.` lists, nested by indenting
 - fenced code blocks with a language: ```` ```cpp ````
